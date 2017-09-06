@@ -1,3 +1,42 @@
-input#saveForm {
-    display: none;
-}
+/* Wufoo Form Structure CHANGES ONLY */
+body{font:12px/14px helvetica,sans-serif; background: #F0F0F0; }
+#container, #bottom {width: 520px;}
+.info{margin:0 0 0 0;padding:0 1% 0 1%;}
+.wufoo .info h2{display:none;}
+.wufoo .info div{line-height:18px;font-size:14px;text-align:center;color:#555;}
+.wufoo input.text{width:230px; height: 23px; outline:none; padding: 8px 0 7px 10px; border: 0; background: url('http://info.magento.com/rs/magentocommerce/images/imagine-form-bg-240.png') no-repeat;}
+.wufoo label.desc,.wufoo legend.desc{font-size:100%; position: relative; font-weight:normal; zoom: 1; height: auto !important; line-height: 22px !important; }
+.wufoo textarea.textarea { background: #ffffff; resize:none; max-height: 200px; overflow: auto;}
+
+form.wufoo{margin:0px 0px 0 0px;padding:0 0 0px 0;}
+form span.req{float:right !important; display:block !important; top:5px; right:0; width:45px !important;margin-right:10px;background:url('http://info.magento.com/rs/magentocommerce/images/required-red.png') no-repeat 0 0;text-indent:-9999px;}
+form li.buttons input{margin:25px 0 0 150px;}
+form li.error p.error{display:none;}
+form li.error { margin-bottom: 0px !important; background-color: transparent !important; }
+.error label.desc{font-weight:normal !important;}
+#errorLi{display:none;}
+
+
+/* CUSTOM STYLES */
+li#fo130li1 { margin-right: 4px; }
+li#fo172li108, li#fo172li109,li#fo172li3,li#fo172li4,li#fo172li6,li#fo172li7,li#fo172li320, li#fo171li108, li#fo171li109,li#fo171li3,li#fo171li4,li#fo171li6,li#fo171li7,li#fo171li320, li#fo219li109, li#fo219li3, li#fo219li6, li#fo219li7, li#fo219li108, li#fo219li320, li#fo220li3, li#fo220li4 {width:248px !important;min-height:51px;float:left;}
+li#fo172li3,li#fo172li7,li#fo171li3{clear:left;}
+li#fo139li4, li#fo219li109, li#fo219li6, li#fo219li320, li#fo220li4  {clear:right;}
+li#fo172li109,li#fo172li4,li#fo172li6,li#fo172li320,li#fo171li109,li#fo171li4,li#fo171li6,li#fo171li320,li#fo171li7{clear:none;}
+#Field1{margin-right:15px;}
+li#fo130li1 span label, li#fo132li1 span label {display:none;}
+
+li#fo171li110 div{position:absolute;right:60px;top:5px;}
+li#fo171li113 div,li#fo171li112 div{position:absolute;right:200px;top:5px;}
+li#fo171li114 div span, li#fo132li335 div span {margin:0 7px 0 30px;}
+li#fo171li214 div, li#fo132li338 div {margin-left:30px;}
+li#fo171li315 div span {margin:0 50px 0 30px;}
+li#fo171li316 div span {margin:0 7px 0 30px;}
+
+#req_114, #req_214, #req_110, #req_113, #req_112, #req_315, #req_316, #req_327, #req_338, #req_326, #req_335, #req_337, #req_336, #req_340  {}
+#title318, #title340 {margin-left:30px; line-height: 24px; width: 160px;float:left;}
+#field318, #field340 {float:right;}
+#title335, #title327, #title326  {height: 50px !important;}
+#title338 {height: 160px !important;}
+
+input#saveForm { display: none;}
