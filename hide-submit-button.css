@@ -10,7 +10,7 @@ body{font:12px/14px helvetica,sans-serif; background: #F0F0F0; }
 
 form.wufoo{margin:0px 0px 0 0px;padding:0 0 0px 0;}
 form span.req{float:right !important; display:block !important; top:5px; right:0; width:45px !important;margin-right:10px;background:url('http://info.magento.com/rs/magentocommerce/images/required-red.png') no-repeat 0 0;text-indent:-9999px;}
-form li.buttons input{margin:25px 0 0 150px;}
+form li.buttons input{float:right;}
 form li.error p.error{display:none;}
 form li.error { margin-bottom: 0px !important; background-color: transparent !important; }
 .error label.desc{font-weight:normal !important;}
@@ -38,5 +38,3 @@ li#fo171li316 div span {margin:0 7px 0 30px;}
 #field318, #field340 {float:right;}
 #title335, #title327, #title326  {height: 50px !important;}
 #title338 {height: 160px !important;}
-
-#saveForm { display: none !important; float:right;}
