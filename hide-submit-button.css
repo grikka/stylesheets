@@ -39,4 +39,4 @@ li#fo171li316 div span {margin:0 7px 0 30px;}
 #title335, #title327, #title326  {height: 50px !important;}
 #title338 {height: 160px !important;}
 
-input#saveForm.btImg.submit { display: none;}
+#saveForm { display: none !important;}
